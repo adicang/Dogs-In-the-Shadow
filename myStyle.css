@@ -1,0 +1,163 @@
+*{
+	text-align: center;
+	box-sizing:border-box;
+	margin:0px;
+}
+
+.toRight{
+	float: right;
+}
+
+.toLeft{
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+#weAreTheDogs{
+	margin-top: 3%;
+}
+
+section{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+a:hover{
+	font-weight: bold;
+}
+
+.textAlignRight{
+	text-align: right;
+}
+
+.backgroundForm{
+	background-color: orange;
+	opacity: 80%;
+}
+
+.navSection{
+	margin-top: 0%;
+	margin-bottom: 0%;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	z-index:1;
+	
+}
+
+.footer{
+	background-color: gray;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.form-v1{
+	margin-bottom: 0%;
+	margin-top: 0%;
+}
+
+
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+.dog::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f6d3"; color: orange;
+  }
+  
+  .magic::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0d0"; color: orange;
+  }
+  
+   .home::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f015"; color: orange;
+  }
+  
+  .like::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f164"; color: orange;
+  }
+    .contact::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f674"; color: orange;
+  }
+
+#searchDogButton{
+	background-color: #09846b;
+	color: white;
+	border-radius: 10px 10px 10px 10px;
+	border-color: white;
+}
+#searchDogButton:hover{
+	 box-shadow: 1px 1px grey;
+}
+
+.backgroudImg{
+	position: absolute;
+	opacity: 0.6;
+}
+
+#sec1{
+	height: 700px;
+}
+
+.imgReg{
+	position: relative;
+	float: left;
+	margin-left: 140px;
+	margin-top: 70px;
+}
+
+#dogPhone{
+	margin-top: 140px;
+	opacity: 0.8;
+	width: 25%;
+	margin-left: 60px;
+	border-radius: 15px;
+}
+
+#contactSec{
+	width: 70%;
+}
+
+.toCenter{
+	margin: auto;
+}
+
+#item{
+	
+	margin-left: 2%;
+	width: 30%;
+	float: right;
+	margin-top: 2%;
+}
+
+#itemImg{
+	float: left;
+	width: 70%;
+	margin: auto;
+}
+#itemText{
+	padding-top: 3%;
+	float: left;
+	width: 30%;
+	margin: auto;
+}
+
+#secDogs{
+	
+	width: 100%;
+	margin-bottom: 2%;
+}
+
+#itemImg:hover {
+  transform: scale(1.1);
+}
+
+
+
